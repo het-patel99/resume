@@ -1,0 +1,268 @@
+\documentclass[letter,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{multicol}
+% \usepackage[default,scale=0.95]{opensans}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,allcolors=blue}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+% \setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \vspace{-2pt}\item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubItem}[2]{
+  \vspace{-2pt}\resumeItem{#1}{#2} \vspace{-2pt}}
+
+
+\newcommand{\resumeSubheading}[4]{
+	\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#3} \text{\small#1} & #4 \\
+		%      \text{\small#3} & 
+		%      \text{\small #4} \\
+	\end{tabular*}
+}
+
+
+% \newcommand{\resumeSubheading}[4]{
+%  \vspace{-5pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%      \textbf{#1} & #2 \\
+%      \text{\small#3} & \text{\small #4} \\
+%     \end{tabular*}\vspace{-6pt}
+% }
+
+% --- resume sub heading for education tab only
+\newcommand{\resumeSubheadingEducation}[4]{
+	\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\text{\small#3} & \text{\small #4} %\\ \text{\small #5} & \\
+	\end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeSubProjheading}[3]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} \\
+		\textit{\small#2} & \textit{\small #3} \\
+	\end{tabular*}\vspace{-2pt}
+}
+
+
+\renewcommand{\labelitemii}{$\bullet$}
+\newcommand{\resumeSubHeadingListStartNoBul}{\vspace{-2pt}}
+\newcommand{\resumeSubHeadingListEndNoBul}{}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	\centerline{\textbf{{\large HET PATEL}}}
+	\centerline{\text{{\small 1110 McKimmon View Ct., Apt. 201, Raleigh, NC 27606}}}
+%	\centerline{}
+	\centerline{{\faEnvelope\enspace hetpatel0199@gmail.com} $\vert$ {\faLinkedin\enspace www.linkedin.com/in/het-patel99} $\vert$  \faPhone\enspace +1 (919) 935-8469}
+
+% \vspace{3pt}
+
+%-----------EDUCATION-----------------
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+  \resumeSubheadingEducation
+  {North Carolina State University}{Raleigh, NC}
+  {Master of Computer Science; GPA: 4.0/4.0}{Anticipated May 2023}
+  
+%   \vspace{1pt}
+    \text{\small \textbf{ \ Coursework:} \text{Software Engineering, Artificial Intelligence, 
+    Design \& Analysis of Algorithm}}
+    
+  \resumeSubheadingEducation
+  {Vellore Institute of Technology}{Vellore, India}
+  {B. Tech in Computer Science \& Engineering; GPA: 9.06/10} {June 2017 -- May 2021}
+  
+%   \vspace{1pt}
+    \text{\small \textbf{ \ Coursework:} \text{Data Structures \& Algorithms, Software Engineering, Machine Learning, Image Processing}}
+  \resumeSubHeadingListEnd
+  
+% --------PROGRAMMING SKILLS------------
+\section{\textbf{Technical Skills}}
+
+\resumeSubHeadingListStartNoBul
+\resumeSubItem{}{\textbf{Programming Languages:} Java, Python, JavaScript, PHP, SQL, HTML/CSS, ReactJS, Node.js}
+\vspace{4pt}
+%$\:\:\:$\quad$\:\:$ $\:\,$ $\bullet$ \textbf{Scripts:} Shell, MATLAB, LaTeX}
+\resumeSubItem{}{\textbf{Frameworks \& Web Technologies:} JDBC, Flask, NLTK, Scikit-learn, Keras, TensorFlow, OpenCV, Express, Mongoose}
+\vspace{4pt}
+\resumeSubItem{}{\textbf{Database, Tools \& Platforms:} Git, AWS, Terraform, Docker, BitBucket, MySQL, MongoDB, VS Code}
+%\resumeSubItem{}{\textbf{Operating Systems:} macOS, Ubuntu, Windows}
+%\hfill \textbf{Databases: } MySQL, Microsoft SQL Server} \\
+% \vspace{4pt}
+\resumeSubHeadingListEndNoBul
+
+%-----------EXPERIENCE-----------------
+\section{\textbf{Experience}}
+  \resumeSubHeadingListStartNoBul
+	
+
+%     \textbf {Software Development Engineer Intern}, Coupang Global, LLC. Riverside, CA \hspace*{\fill} May 2022 -- Present
+% 	\resumeItemListStart
+% 	\resumeItem{}{}
+% 	\resumeItem{}{}
+% 	\resumeItemListEnd
+	
+	
+% 	\vspace{1pt}
+	
+	\textbf {Artificial Intelligence Intern}, Softvan Pvt. Ltd., Ahmedabad, India \hspace*{0pt}\hfill Dec 2020 -- May 2021
+    \resumeItemListStart
+	\resumeItem{}{Developed a complete pipeline to automate training of image classification models using EfficientNet and its 8 variants by accumulating data restructuring, processing hyper parameters, model training, and generating model metrics of trained models which achieved accuracy of 94\%.}
+	\resumeItem{}{Designed and Implemented real time object detection model by YOLOv4. An image dataset was annotated by selecting multiple ROI's from live RTSP camera feed, the model metrics were tested by Mean Square Error (MSE) and Structural Similarity Index Measure (SSIM), and efficacy of 98\% was achieved.}
+	\resumeItemListEnd
+    
+    \vspace{1pt}
+    
+    \textbf {PHP Developer Intern}, Ouranos Technologies Pvt. Ltd., Ahmedabad, India \hspace*{0pt}{\hfill} May 2019 -- Jul 2019
+	\resumeItemListStart
+	\resumeItem{}{Researched and programmed the back end of a Web Application using PHP. Worked on Flask and integrated a chatbot that acknowledges the customer's query on the Web portal, and provided accurate answers up-to 86\%.}
+	\resumeItem{}{Used SQL for designing database schemas to model the chatbot's response and integrated trigger's for database}
+    \resumeItem{}{Built a system that fetches the finest response based on user's Query and reduced processing time by 40\%.}
+	\resumeItemListEnd
+	
+  \resumeSubHeadingListStartNoBul
+%-----------PROJECTS-----------------
+\section{\textbf{Projects}}
+  \resumeSubHeadingListStart
+  
+%    \resumeSubProjheading
+%    {GAN training using Regret Minimization}
+%    {Algorithms and Optimization for Big Data}{Feb '18 -- Apr '18}
+%    
+%    \resumeItemListStart
+%	    \resumeItem{}
+%			{Incorporated the concept of local regret and windowing technique to enhance convergence rate of GAN training dynamics.} \\ 
+%	    \resumeItem{Technologies used: } {Python, TensorFlow}
+%    \resumeItemListEnd
+%    
+%    \resumeSubProjheading
+%    {Context Switching with CPU Scheduler}
+%    {Operating Systems}{Oct '17 -- Dec '17}
+%    
+%    \resumeItemListStart
+%	    \resumeItem{}
+%		    {A multi-threaded simulation of process switching mechanism in OS. The context of processes is saved enabling them to resume from saved state. } \\ 
+%	    \resumeItem{Technologies used: } {C, POSIX Threads}
+%    \resumeItemListEnd
+%    
+%    \resumeSubProjheading
+%    {Blockchain-based voting system}
+%    {Computer Networks}{Oct '17 -- Dec '17}
+%    
+%    \resumeItemListStart
+%	    \resumeItem{}
+%		    {A proof of concept (POC) model for a voting system based on blockchain technology. Encrypted votes on blockchain are available at all nodes in case, central storage of votes is compromised.} \\ 
+%	    \resumeItem{Technologies used: } {Java, P2P networking}
+%    \resumeItemListEnd
+%    
+%     \resumeSubProjheading
+%    {SEASMap}
+%    {Data Structures and Algorithms}{Oct '17 -- Dec '17}
+%    
+%    \resumeItemListStart
+%	    \resumeItem{}
+%		    {An android application that provides shortest path navigation between 2 locations in a building. The app provides shortest path navigation, based on user's cardinal directions, using Dijkstra's algorithm.} \\ 
+%	    \resumeItem{Technologies used: } {Android}
+%    \resumeItemListEnd
+    % \vspace{1pt}
+    
+    % {The paper got published in the International Journal of Engineering Research and Technology.}
+    % \resumeSubItem{SRIJAS:Smart Resume Interpreter and Job Alert System: }
+    % {Using Travis, Terraform, and AWS, I created a complete CI/CD cycle for the project and reduced the release time by 60\%. Configured Testing server and performed automated unit and integration testing on each commit and generated reports of results. Described the infrastructure as code using Terraform and automated the deployment process on successful commits using Travis.}
+    \resumeSubItem{SRIJAS (Smart Resume Interpreter and Job Alert System): }
+    {Using Python, Terraform, JavaScript, and AWS, a complete functional CI/CD cycle for the project was developed reducing release time by 70\%. Leveraging Github Workflow, a test server was configured to run unit tests. Terraform was used to create Infrastructure as Code for complex Web and Database servers, resulting in a 0\% error rate. 
+    }
+    \vspace{4pt}
+    
+    \resumeSubItem{CheapBuy Extension: }
+    {A Google extension was created which provides comparison of the prices for every product available in different e-commerce websites. Web-Scrapper was designed in python with the use of Beautiful Soup and incorporated into extension. A test server was set up to perform unit tests using Github Workflow. An interactive, real-time UI was built, so enabling our extension from the product page would fetch prices of the same product through different e-commerce websites.   
+    }
+    \vspace{4pt}
+    
+    
+    \resumeSubItem{Car Parking Allotment Bot: }{Developed an automated bot to allot available parking space for the cars and tested on XAMPP local host server. The Bot was developed using PHP \& JavaScript, and database was maintained on MySQL. Additionally, a search box for unallocated parking space module was integrated for any user to directly pick unallocated parking space.}
+    \vspace{4pt}
+    
+    % \resumeSubItem{Recipe Recommender: }{Developed an application which suggests recipes based on ingredients and cuisine using javaScript. The application is deployed on AWS, and complete pipeline is implemented using Terraform.}
+    % \vspace{4pt}
+    % \resumeSubItem{Satellite Image Refining for Building Detection: }
+    % {Proposed and implemented a novel approach for building detection from satellite images using Canny Edge Detector. Preprocessed SAR images with bilateral filter, gray scale, threshold filter, color overlay, open close filter and Canny Edge detection algorithm to achieve an accuracy of 93.4\%.}
+    % \vspace{4pt}
+    \resumeSubItem{Oceanographic Normalization of SAR Images: }
+    {Implemented Histogram Normalization approach for oceanographic SAR (Synthetic aperture radar) Images as a part of Indian Space Research Organization's (ISRO) project. Imposing multiple filters and intensity normalization on SAR Images, blur spots were reduced by 80\%.}
+    
+    % \vspace{5pt}
+\resumeSubHeadingListEnd
+  
+  
+\section{\textbf{Achievements / Extra-Curriculars}}
+\resumeSubHeadingListStart
+\resumeSubItem{}{Accepted Book Chapter in Springer, Book Name: Artificial Intelligence based Agriculture, Chapter Name: A computational approach for prediction and modelling of agriculture crop using Artificial Intelligence.}
+\vspace{3pt}
+\resumeSubItem{}{Qualified in Top 5 in Hack4Cause 3.0 conducted by SSIT.}
+\vspace{3pt}
+\resumeSubItem{}{Successfully cleared 2 rounds for HackerTech 2019 hosted by E-Cell Club, VIT University.}
+\vspace{3pt}
+\resumeSubItem{}{AWS Fundamentals: Going Cloud-Native - Coursera.}
+% \vspace{3pt}
+% \resumeSubItem{}{Mentored 40 students to work on Web Development projects as a part of CSI's (Computer Society of India) annual tech fest.}
+% \vspace{3pt}
+% \resumeSubItem{}{Technical team member of Technical Committee of IEEE Ahmedabad University Student Branch for the year 2018.}
+% \vspace{2pt}
+\resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
